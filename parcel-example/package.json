@@ -5,7 +5,7 @@
   "main": "parceltest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build parceltest.js && echo 'var ' | cat - dist/parceltest.js > temp && mv temp dist/parceltest.js",
+    "build": "parcel build example.js && echo 'var ' | cat - dist/example.js > temp && mv temp dist/example.js",
     "serve": "http-server --cors"
   },
   "author": "",
