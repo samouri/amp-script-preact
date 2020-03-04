@@ -1,0 +1,28 @@
+<!doctype html>
+<html ⚡ lang="en" data-ampdevmode>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="amp-script-src" content="sha384-eRl4z0M84splx8Adsat0kCD-3LZ0Bisw38WjRzq1t9MdLeQLfLdWooUei51aVHa9">
+  <title>amp-script tests</title>
+  <link rel="canonical" href="localhost">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+
+
+  <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+</head>
+
+<body>
+  <h1>&lt;amp-script&gt; test</h1>
+  <p>This text is outside of the &lt;amp-script&gt; zone.</p>
+  <amp-script layout="fixed" height="400px" width="400px" script="parceltest" src="dist/parceltest.js" data-ampdevmode>
+    <div>
+      <p>Stuff that's already here.</p>
+    </div>
+  </amp-script>
+</body>
+</html>

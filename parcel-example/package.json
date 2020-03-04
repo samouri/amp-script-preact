@@ -1,0 +1,18 @@
+{
+  "name": "jake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parceltest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build parceltest.js && echo 'var ' | cat - dist/parceltest.js > temp && mv temp dist/parceltest.js",
+    "serve": "http-server --cors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "parcel": "^1.12.4",
+    "preact": "^10.3.3"
+  }
+}
